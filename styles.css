@@ -1,0 +1,97 @@
+.title {
+    text-align: center;
+    color: #66fff7;
+    border: #66fff7 solid 5px;
+    border-radius: 30px;
+    font-family: 'Italianno', cursive;
+    font-size: 90px;
+}
+.h{
+    background-color:black;
+    color:white;
+    width:500px;
+    border:white solid 1px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.move {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.annoy {
+    width: 40px;
+}
+
+.menu1 {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.op {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.para {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+/*button stuff*/
+.button {
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    background-color: black;
+    padding: 10px;
+    border-radius: 30px;
+    border: solid 2px blue;
+    margin: 15px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/*button stuff*/
+.menu1 {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+}
